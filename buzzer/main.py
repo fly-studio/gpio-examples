@@ -30,6 +30,9 @@ def beep(channel: int, freq: int, duration: float, *, rising_tone: float = 1):
 def play(channel: int, sheet: list):
     """
     播放简谱
+    简谱可以为如下格式(参照上文的txdx.py):
+    - [音符名(string), 持续时间(s)]
+    - [频率(int), 持续时间(s)]
     :param channel: GPIO的数字号，需要和上面的GPIO.setmode(GPIO.BCM)对应
     :param sheet: 简谱
     :return:
