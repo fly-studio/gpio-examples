@@ -1,1 +1,2 @@
 RPi.GPIO~=0.7.0
+opencv-python~=4.5.1.48
