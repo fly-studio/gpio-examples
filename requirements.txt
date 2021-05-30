@@ -1,2 +1,6 @@
 RPi.GPIO~=0.7.0
 opencv-python~=4.5.1.48
+wiringpi~=2.60.1
+streamlink~=2.1.2
+pyscreenshot~=3.0
+vidgear~=0.2.1
